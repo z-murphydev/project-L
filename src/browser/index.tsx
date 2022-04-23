@@ -2,6 +2,7 @@ import * as React from "react";
 import ReactDOM from "react-dom";
 
 import { App } from "./components/app";
+import "./index.css";
 
 let siteMount = document.querySelector(".site");
 if (siteMount == null) {
